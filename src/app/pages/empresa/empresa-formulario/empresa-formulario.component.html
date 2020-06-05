@@ -1,0 +1,51 @@
+<h2 class="title">Detalhar Empresa</h2>
+<form [formGroup]="formulario">
+<!-- <form  [formGroup]="formulario" > -->
+    <div class="row margin">
+        <div class="col">
+            <input type="text" class="form-control"  id="id" formControlName="id"  placeholder="Código">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" id="name" formControlName="name" placeholder="Empresa">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" id="username" formControlName="username" placeholder="Nome">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" id="email" formControlName="email" placeholder="Email">
+        </div>
+    </div>
+    <div class="row margin">
+        <div class="col">
+            <input type="text" class="form-control" id="street" formControlName="street" placeholder="Rua">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" id="suite" formControlName="suite" placeholder="Suite">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" id="zipcode" formControlName="zipcode" placeholder="Cidade">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" id="lat" formControlName="lat" placeholder="Código postal">
+        </div>
+    </div>
+    <div class="row margin">
+        <div class="col">
+            <input type="text" class="form-control"  id="lng" formControlName="lng"  placeholder="Telefone">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control"  id="phone" formControlName="phone"  placeholder="Site">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" id="website" formControlName="website"  placeholder="Nome Companhia">
+        </div>
+        <div class="col">
+            <input type="text" class="form-control" id="companyName" formControlName="companyName"  placeholder="CatchPhrase">
+        </div>
+    </div>
+    <div class="row margin">
+        <div class="col">
+            <input type="text" class="form-control" id="catchPhrase" formControlName="catchPhrase"  placeholder="Bs">
+        </div>
+    </div>
+</form>

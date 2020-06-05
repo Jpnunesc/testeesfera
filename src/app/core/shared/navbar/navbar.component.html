@@ -1,0 +1,22 @@
+<html>
+<title>W3.CSS</title>
+
+<body>
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+        <button class="w3-bar-item w3-button w3-large" (click)="w3_close()"> &times;</button>
+        <a href="../" class="w3-bar-item w3-button">Empresas</a>
+        <a href="#" class="w3-bar-item w3-button">Cadastra Empresa</a>
+        <a href="#" class="w3-bar-item w3-button">Sobre</a>
+    </div>
+    <div id="main">
+        <div class="w3-teal" style="display: flex;">
+            <button id="openNav" class="w3-button w3-teal w3-xlarge" (click)="w3_open()">&#9776;</button>
+            <div class="w3-container">
+                <h1>Empresa</h1>
+            </div>
+        </div>
+        <router-outlet></router-outlet>
+    </div>
+</body>
+
+</html>
